@@ -1,0 +1,1011 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #f6f7ff;
+}
+
+/* ==================== Navbar Started ======================= */
+
+#header .navbar a{
+    color: rgba(0,0,0,.9);
+}
+
+#header .navbar{
+    padding: 15px 0;
+}
+
+#header .navbar .title .navbar-brand{
+    font-weight: 600;
+    font-size: 30px;
+    color: #2d405f;
+}
+
+#header .navbar .title .navbar-nav .nav-item .active{
+    color: #3b4ef8;
+    font-weight: 600;
+}
+
+#header .navbar .title .navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+    transition: .5s;
+}
+
+/* #header .navbar .title .navbar-nav .nav-item .nav-link:hover{
+    color: #3b4ef8;
+    transition: .5s;
+} */
+
+#header .navbar .title .navbar-nav .nav-item .nav-link:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #3b4ef8;
+}
+
+#header .navbar .title form button{
+    border: 1px solid white;
+    background-color: #e2e5fe;
+    color: #3b4ef8;
+    margin: 5px 5px;
+    padding: 7px 12 px;
+}
+
+#header .navbar .title form button:hover{
+    background-color: #3b4ef8;
+    color: white;
+    transition: .5s;
+}
+
+/* ==================== Navbar End ======================= */
+
+
+
+/* ==================== Hero Started ======================= */
+main #hero{
+    height: 100vh;
+    text-align: center;
+}
+
+main #hero .title{
+    margin: 50px 0 10px 0;
+}
+
+main #hero .title h1{
+    font-size: 45px;
+    color: #2d405f;
+}
+
+main #hero .desc h3{
+    color: #2d405f;
+}
+
+main #hero .btn button{
+    margin: 15px 0 0 0;
+    width: 190px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: #3b4ef8;
+    color: white;
+}
+
+main #hero .btn button:hover{
+    background-color: #162df7;
+    transition: .5s;
+}
+
+/* ==================== Hero End ======================= */
+
+
+/* ==================== About Started ======================= */
+
+main #about h2{
+    color: white;
+}
+
+main #about p{
+    color: white;
+}
+
+main #about h4{
+    color: white;
+}
+
+main #about i{
+    color: #b6bdfc;
+}
+
+main #about{
+    padding: 50px 0;
+    background-color: #466393;
+}
+
+main #about .datas button{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+main #about .datas button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .5s;
+}
+
+main #about .datas .active{
+    color: white;
+}
+
+main #about .boxes .icon i{
+    font-size: 35px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+main #about .boxes .title h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main #about .boxes .desc p{
+    font-size: 15px;
+}
+
+/* ==================== About End ======================= */
+
+
+/* ==================== Achieved Started ======================= */
+
+main #achieved{
+    background-image: url(../image/ach_img.jpg);
+    padding: 50px 0;
+}
+
+main #achieved .achieved_title{
+    text-align: center;
+}
+
+main #achieved .achieved_title h3{
+    font-size: 34px;
+    font-weight: 600;
+    color: #0f394c;
+}
+
+main #achieved .achieved_title p{
+    font-size: 16px;
+}
+
+main #achieved .achieved_boxes{
+    display: flex;
+    text-align: center;
+}
+
+main #achieved .achieved_boxes .achieved_box span{
+    color: #49b5e7;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+main #achieved .achieved_boxes .achieved_box p{
+    font-size: 15px;
+    color: #444444;
+}
+
+/* ==================== Achieved End ======================= */
+
+
+/* ==================== Client Started ======================= */
+
+main #clients{
+    padding: 30px 0 0 0;
+    background-color: #f6f7ff;
+}
+
+main #clients img{
+    width: 50%;
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+main #clients img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+/* ==================== Client End ======================= */
+
+
+/* ==================== Features Started ======================= */
+
+main #features{
+    margin: 50px 0;
+}
+
+main #features .features_title{
+    text-align: center;
+}
+
+main #features .features_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #features .features_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #features .features_title .desc p{
+    color: rgb(75, 75, 75);
+}
+
+main #features .img img{
+    width: 100%;
+}
+
+main #features .image_data{
+    padding: 40px 0;
+}
+
+main #features .image{
+    padding: 40px 0;
+}
+
+main #features .image_data .title h3{
+    padding: 23px 0 5px 0;
+    color: rgb(68, 67, 67);
+}
+
+main #features .image_data .desc p{
+    color: rgb(56, 56, 56);
+}
+
+main #features .image_data .list ul{
+    list-style: none;
+    padding: 0;
+}
+
+main #features .image_data .list ul li{
+    padding-bottom: 10px;
+}
+
+main #features .image_data .list ul li i{
+    padding: 5px 20px 5px 0;
+    color: #3b4ef8;
+    font-size: 10px;
+}
+
+/* ==================== Features End ======================= */
+
+
+
+/* ==================== Services Started ======================= */
+
+main #services{
+    margin: 50px 0;
+    background-color: #4d658b;
+    padding: 20px 0;
+}
+
+main #services .services_title{
+    text-align: center;
+}
+
+main #services .services_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #services .services_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #services .services_title .desc p{
+    color: #fff;
+}
+
+main .services .icon-box {
+    text-align: center;
+    padding: 70px 20px;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #4d658b;
+    border-radius: 10px;
+}
+
+main .services .icon-box .icon::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: -10px;
+    height: 100%;
+    width: 100%;
+    background: rgb(198, 224, 236);
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: translateZ(-1px);
+}
+
+main .services .icon-box .icon {
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    background: #35a8f5;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    transform-style: preserve-3d;
+}
+
+main .services .icon-box h4{
+    color: #fff;
+}
+
+main .services .icon-box p{
+    color: #fff;
+}
+
+main .services .icon-box h4 a{
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+
+main .services .icon-box .icon i{
+    color: white;
+}
+
+main .services .icon-box:hover{
+    background: rgb(67, 144, 245);
+    cursor: pointer;
+}
+
+main .services .icon-box:hover{
+    color: white;
+}
+
+/* ==================== Services End ======================= */
+
+
+
+/* ==================== Portfolio Started ======================= */
+
+
+main #portfolio{
+    margin: 50px 0;
+}
+
+main #portfolio .portfolio_title{
+    text-align: center;
+}
+
+main #portfolio .portfolio_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #portfolio .portfolio_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #portfolio .portfolio_title .desc p{
+    color: rgb(75, 75, 75);
+}
+
+main #portfolio .grid {
+    margin: 30px auto 0;
+}
+
+main #portfolio .grid-item {
+    margin: 0 8px 20px 8px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+main #portfolio .grid-item img {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    object-fit: cover;
+    transition: all .4s linear;
+}
+
+main #portfolio .grid-item img:hover {
+    transform: scale(1.5);
+}
+/* ==================== Portfolio End ======================= */
+
+
+
+/* ==================== Team Started ======================= */
+
+main #team{
+    padding: 50px 0;
+    background-color: #f9f9fa;
+}
+
+main #team .team_title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+main #team .team_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #team .team_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #team .team_title .desc p{
+    color: rgb(75, 75, 75);
+}
+
+main #team .member{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    background: white;
+    transition: .5s;
+}
+
+main #team .member:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+main #team .member img{
+    max-width: 100%;
+    margin: 0 0 30px 0;
+}
+
+main #team .member h4{
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+main #team .member span{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+main #team .member p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+main #team .member .social a i{
+    color: #5f687b;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 0 5px;
+}
+
+main #team .member .social a i:hover{
+    color: #16df7e !important;
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* ==================== Team End ======================= */
+
+
+
+/* ==================== Pricing Started ======================= */
+
+main #pricing{
+    padding: 50px 0;
+    background-color: #f6f8fb;
+}
+
+main #pricing .pricing_title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+main #pricing .pricing_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #pricing .pricing_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #pricing .pricing_title .desc p{
+    color: rgb(75, 75, 75);
+}
+
+main #pricing .box{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+main #pricing .box h3{
+    font-size: 22px;
+    padding: 20px 0 0 0;
+}
+
+main #pricing .box h4{
+    font-size: 42px;    
+    padding: 20px 0;
+    color: #3b4ef8;
+    margin-bottom: 20px;
+}
+
+main #pricing .box h4 span{
+    color: #bababa;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main #pricing .box .list{
+    padding: 0;
+}
+
+main #pricing .box .list .gray{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+main #pricing .box .list li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+main #pricing .box .btn button{
+    border: 1px solid white;
+    background-color: #e2e5fe;
+    color: #3b4ef8;
+    margin: 5px 5px;
+    padding: 10px 35px 12px 35px;
+}
+
+main #pricing .box:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* main #pricing .box:hover{
+    background: #466393;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+}
+
+main #pricing .box .btn button:hover{
+    background: #3b4ef8;
+    color: #fff;
+    border: 1px solid #3b4ef8;
+} */
+
+/* ==================== Pricing End ======================= */
+
+
+/* ==================== Frequently Started ======================= */
+
+main #frequently{
+    padding: 50px 0;
+    background-color: #f6f8fb;
+}
+
+main #frequently .frequently_title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+main #frequently .frequently_title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #frequently .frequently_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+/* ==================== Frequently End ======================= */
+
+
+/* ==================== Contact Started ======================= */
+
+main #contact{
+    padding: 50px 0;
+    background-color: #f9f9fa;
+}
+
+main #contact .contact_title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+main #contact .contact_title .title h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d405f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+main #contact .contact_title .title h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #162df7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #aabbd7;
+}
+
+main #contact .contact_title .desc p{
+    color: rgb(75, 75, 75);
+}
+
+main #contact .info{
+    border-top: 3px solid #3b4ef8;
+    border-bottom: 3px solid #3b4ef8;
+    padding: 30px;
+    width: 100%;
+    background-color: #f9f9fa;
+}
+
+main #contact .info i{
+    font-size: 20px;
+    color: #3b4ef8;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+main #contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #5f687b;
+}
+
+main #contact .form_boxes{
+    width: 100%;
+    border-top: 3px solid #3b4ef8;
+    border-bottom: 3px solid #3b4ef8;
+    padding: 30px;
+    background-color: #f9f9fa;
+    height: 608.8px;
+}
+
+main #contact .form_boxes input{
+    width: 100%;
+}
+
+main #contact .form_boxes textarea{
+    width: 100%;
+}
+
+main #contact .form_boxes .form_info{
+    padding-bottom: 8px;
+}
+
+main #contact .form_boxes .form_info input{
+    height: 31px;
+}
+
+main #contact .form_boxes .text_end{
+    text-align: center !important;
+}
+
+main #contact .form_boxes button[type=submit]{
+    background: #3b4ef8;
+    border: 0;
+    padding: 10px 24px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+main #contact .info p{
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #949cac;
+}
+
+
+/* ==================== Contact End ======================= */
+
+
+/* ==================== Newsletter Started ======================= */
+
+main #newsletter{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e6f1f7;
+}
+
+main #newsletter .newsletter_title h2{
+    font-size: 25px;
+    color: #0f394c;
+    margin: 0 0 20px 0;
+}
+
+main #newsletter .newsletter_title p{
+    color: rgb(99, 98, 98);
+    margin: 0 0 20px 0;
+}
+
+main #newsletter .newsletter_btn input{
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 7px 100px;
+}
+
+main #newsletter .newsletter_btn button{
+    border-radius: 5px;
+    background-color: #49b5e7;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 20px;
+}
+
+/* ==================== Newsletter End ======================= */
+
+
+/* ==================== Footer Started ======================= */
+
+footer #foot{
+    margin: 50px 0;
+}
+
+footer #foot .footer_contact h4{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+footer #foot .footer_contact p{
+    font-size: 14px;
+    color: #777777;
+    padding: 10px 0 5px 0;
+}
+
+footer #foot .footer_links h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer #foot .footer_links ul{
+    padding: 0;
+}
+
+footer #foot .footer_links ul li{
+    list-style: none;
+    padding: 6px 0;
+    color: #777777;
+    transition: .5s;
+}
+
+/* footer #foot .footer_links ul li:hover{
+    color: #49b5e7;
+    transition: 0.5s;
+    cursor: pointer;
+} */
+
+footer #foot .footer_links ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+footer #foot .footer_links ul li i{
+    color: #49b5e7;
+}
+
+footer #foot .footer_links .social_link{
+    margin-top: 30px;
+}
+
+footer #foot .footer_links .social_link a{
+    font-size: 18px;
+    display: inline-block;
+    background: #49b5e7;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s;
+}
+
+/* footer #foot .footer_links .social_link a:hover{
+    background-color: #85d2f5;
+    color: white;
+} */
+
+footer #foot .footer_links .social_link a:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+footer .footer_copyright{
+    background-color: #dfeff7;
+}
+
+footer .footer_copyright .nav p a{
+    text-decoration: none;
+}
+
+/* ==================== Footer End ======================= */
+
+
+/* ============================About Page================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .movie_about{
+    padding: 30px 0;
+    color: #1a191f;
+}
+
+main .movie_about .title,
+main .movie_about .desc{
+    padding: 10px 0;
+}
+
+main .movie_about .desc{
+    line-height: 1.6;
+}
+
+main .movie_about .box{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+main .movie_about .box:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+main .movie_about .icon{
+    padding-right: 15px;
+    color: #32b2ee;
+}
+
+main .movie_about .icon i{
+    font-size: 27px;
+}
+
+/* works =========== */
+main .works{
+    color: #1a191f;
+    padding: 40px 0;
+}
+
+main .works .title{
+    padding: 30px 0;
+}
+
+main .works .box .number span{
+    color: #32b2ee;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+main .partners{
+    color: #1a191f;
+    padding: 40px 0;
+}
+
+main .partners .title,
+main .partners .desc{
+    padding: 20px 0;
+}
+
+main .partners img {
+    background-color: #32b2ee;
+    border-radius: 5px;
+    width: 100%;
+    padding: 3px 8px;
+}
+
+main .partners img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    cursor: pointer;
+}
